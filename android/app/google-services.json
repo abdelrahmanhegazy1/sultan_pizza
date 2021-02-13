@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "639661697206",
+    "project_id": "sultanpizza-cc216",
+    "storage_bucket": "sultanpizza-cc216.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639661697206:android:f817beea77190c4e2c9e17",
+        "android_client_info": {
+          "package_name": "com.example.sultan_pizza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639661697206-cj8u7do5cvukdnsuk6mk2u57l5m868uo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8bXjHOVhaaUVNr7gwpSVYWeJDfd4ATkk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639661697206-cj8u7do5cvukdnsuk6mk2u57l5m868uo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
