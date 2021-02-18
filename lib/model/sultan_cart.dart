@@ -4,7 +4,7 @@ import 'package:floor/floor.dart';
 class SultanCart {
   @PrimaryKey(autoGenerate: true)
   int id;
-  final String name;
+  String name;
   //int quantity;
   final String email;
   int quantity;

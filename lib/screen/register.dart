@@ -98,6 +98,18 @@ class RegisterScreen extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.all(15.0),
+            child: TextField(
+              onChanged: (value) => account.number = value,
+              style: TextStyle(color: kMainColor, fontSize: 17.0),
+              keyboardType: TextInputType.number,
+              textAlign: TextAlign.center,
+              cursorColor: kMainColor,
+              decoration:
+                  getDecorationTextField('Enter Your Phone Number', 'age'),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(15.0),
             child: Material(
               borderRadius: BorderRadius.circular(30),
               color: Color(0xFF141518),

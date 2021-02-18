@@ -117,7 +117,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   // Then close the drawer
                   Navigator.pushNamed(
                     context,
-                    kCart_Screen,
+                    kHistory_Screen,
                   );
                 },
                 leading: Icon(

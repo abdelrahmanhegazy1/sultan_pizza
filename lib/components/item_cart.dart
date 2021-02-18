@@ -110,7 +110,7 @@ class _ItemCartState extends State<ItemCart> {
                       child: GestureDetector(
                         onTap: () {
                           BlocProvider.of<CartBloc>(context)
-                              .add(AddQuantity(widget.index));
+                              .add(RemoveItem(widget.index, widget.myPizza));
                         },
                         child: Container(
                           child: Icon(

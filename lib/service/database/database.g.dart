@@ -181,9 +181,9 @@ class _$SultanCartDao extends SultanCartDao {
   final InsertionAdapter<SultanCart> _sultanCartInsertionAdapter;
 
   @override
-  Future<void> deleteFromCart(String name) async {
-    await _queryAdapter.queryNoReturn('Delete from SultanCart where name =?',
-        arguments: <dynamic>[name]);
+  Future<void> deleteFromCart(String email) async {
+    await _queryAdapter.queryNoReturn('Delete from SultanCart where email =?',
+        arguments: <dynamic>[email]);
   }
 
   @override
@@ -197,6 +197,13 @@ class _$SultanCartDao extends SultanCartDao {
             quantity: row['quantity'] as int,
             image: row['image'] as String,
             price: row['price'] as int));
+  }
+
+  @override
+  Future<void> deleteOneItem(String name, String email) async {
+    await _queryAdapter.queryNoReturn(
+        'Delete from SultanCart where name =? and email =?',
+        arguments: <dynamic>[name, email]);
   }
 
   @override

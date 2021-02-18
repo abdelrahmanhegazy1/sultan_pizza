@@ -28,7 +28,8 @@ class SubtractQuantity extends CartEvent {
 
 class RemoveItem extends CartEvent {
   final int index;
-  const RemoveItem(this.index);
+  final SultanCart sultan;
+  const RemoveItem(this.index, this.sultan);
   @override
   List<Object> get props => [index];
 }

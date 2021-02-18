@@ -36,6 +36,11 @@ dependencies:
   firebase_core: ^0.7.0
   firebase_storage: ^7.0.0
   floor: ^0.18.0
+  google_maps_flutter: ^1.2.0
+  geolocator: ^6.2.0
+  geocoder: ^0.2.1
+
+
 
 
 

@@ -9,6 +9,8 @@ const kRegister_Screen = 'register_Screen';
 const kHome_Screen = 'home_Screen';
 const kPizza_Screen = 'pizza_Screen';
 const kCart_Screen = 'cart_Screen';
+const kOrder_Screen = 'order_Screen';
+const kHistory_Screen = 'history_Screen';
 // for decoration
 Map<String, Icon> map = {
   'username': Icon(Icons.person),
